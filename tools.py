@@ -47,7 +47,7 @@ def menu():
     print('MENU')
     print('1.DATABASE ')
     print('2.REKENING')
-    print('3.DDOS ATTACK')
+    print('3.SPIDER LINK')
     print('\n')
     global command 
     command = input(f'{pengguna}@server :')
