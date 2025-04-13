@@ -3,11 +3,16 @@
 <p>install package yang dibutuhkan terlebih dahulu</p>
 
 ```
-$ pkg install python3
+$ sudo apt install git
+$ sudo apt install python3
 $ pip install BeautifulSoup
 $ pip install pyfiglet
 $ pip install colorama
-
-
-    
+$ git clone https://github.com/bbybsod/mytools-py.git
+$ cd mytools-py
+$ ls
+$ python3 tools.py
 ```
+
+<h2>Tools ini masih dalam pengembangan ^_^</h2>
+<p>akan banyak fitur lainnya disaat mendatang</p>
