@@ -16,3 +16,4 @@ $ python3 tools.py
 
 <h2>Tools ini masih dalam pengembangan ^_^</h2>
 <p>akan banyak fitur lainnya disaat mendatang</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
