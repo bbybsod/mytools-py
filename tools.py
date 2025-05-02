@@ -6,6 +6,7 @@ from colorama import Fore,Style
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin
+import kalkulator
 
 text = pg.figlet_format('RASYA')
 #akun
@@ -47,6 +48,7 @@ def menu():
     print('1.DATABASE ')
     print('2.REKENING')
     print('3.SPIDER LINK')
+    print('4.KALKULATOR')
     print('\n')
     global command 
     command = input(f'{pengguna}@server :')
@@ -149,4 +151,13 @@ elif command == "3":
         check_link(link)
 
 elif command == "4":
-    
+    header()
+    time()
+    chose = input("Masukan operasi penjumlahan [+ - / x]")
+    if chose == "+":
+        angka1 = int(input("masukan angka pertama : "))
+        angka2 = int(input("masukan angka kedua : "))
+        print(f" hasil dari {angka1} + {angka2} = {kalkulator.pertambahan(angka1,angka2)}")
+    else:
+        print('silahkan pilih operator yang benar!')
+
