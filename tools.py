@@ -12,24 +12,23 @@ text = pg.figlet_format('RASYA')
 
 '''System'''
 os.system('clear')
-os.system('cls')
 #information
 def header():
     print(f"{Fore.LIGHTGREEN_EX}{'SELAMAT DATANG':^40}")
-    print(f'{'DI SERVER':^40}')
+    print(f"{'DI SERVER':^40}")
     print(40*'-')
-    print(f'{'Created by : Muhammad Rasya':^40}')
+    print(f"{'Created by : Muhammad Rasya':^40}")
     print(f"{'Instagram : @rassyyaa_a':^40}")
     print(f"{'Github : github.com/bbybsod':^40}")
           
 def time():
     print(40*'-')
     data_waktu = dt.datetime.now()
-    print(f'{'INFORMATION':^40}')
-    print(f'Year : {data_waktu.year}')
-    print(f'Month : {data_waktu.month}')
-    print(f'date : {data_waktu.day}')
-    print(f'day : {data_waktu.strftime('%A')}')
+    print(f"{'INFORMATION':^40}")
+    print(f"Year : {data_waktu.year}")
+    print(f"Month : {data_waktu.month}")
+    print(f"date : {data_waktu.day}")
+    print(f"day : {data_waktu.strftime('%A')}")
     print(40*'-')
 
 header()
@@ -148,3 +147,6 @@ elif command == "3":
     print("\n[+] Scan Status HTTP Link:")
     for link in found_links:
         check_link(link)
+
+elif command == "4":
+    
