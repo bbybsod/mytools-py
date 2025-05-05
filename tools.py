@@ -10,7 +10,6 @@ import kalkulator
 
 text = pg.figlet_format('RASYA')
 #akun
-
 '''System'''
 os.system('clear')
 #information
