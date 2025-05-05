@@ -163,11 +163,16 @@ elif command == "3":
 elif command == "4":
     header()
     time()
+    def pertambahan(angka1,angka2):
+        hasil = angka1+angka2
+        return hasil
+    def perkalian(angka1,angka2):
+        hasil = angka1 * angka2
     chose = input("Masukan operasi penjumlahan [+ - / x]")
     if chose == "+":
         angka1 = int(input("masukan angka pertama : "))
         angka2 = int(input("masukan angka kedua : "))
-        print(f" hasil dari {angka1} + {angka2} = {kalkulator.pertambahan(angka1,angka2)}")
+        print(f" hasil dari {angka1} + {angka2} = {pertambahan(angka1,angka2)}")
     else:
         print('silahkan pilih operator yang benar!')
 
