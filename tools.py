@@ -6,7 +6,6 @@ from colorama import Fore,Style
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin
-import kalkulator
 
 text = pg.figlet_format('RASYA')
 #akun
@@ -68,11 +67,23 @@ akun3 = {
     'nama':"lfsg@001",
     'password':'123887'
 }
+akun4 = {
+    'nama':"admin@proton.me",
+    'password': 'admin233'
+}
+
+akun5 = {
+    'nama': 'admin31@gmail.id',
+    'password' : 'admin_aja'
+}
+
 #database akun
 dataakun = {
     "00167":akun1,
     "09912":akun2,
-    "00124":akun3
+    "00124":akun3,
+    "07235":akun4,
+    "97274":akun5
 }
 if command == "1":
     print(f"{Fore.RED} {'DATABASE SERVER':^40}")
